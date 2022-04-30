@@ -29,7 +29,6 @@ console.log(mmaria);
 melisa.imprimir();
 
 
-
 //////////////
 class PersonMaterial{
     nombre;
