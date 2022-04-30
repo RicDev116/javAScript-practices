@@ -1,0 +1,28 @@
+document.querySelector('header').title = "Ricardo"
+'Ricardo'
+document.querySelector('header').getInnerHTML('<header class="titulo">
+        Ricardo
+    </header>')
+VM1086:1 Uncaught SyntaxError: Invalid or unexpected token
+document.querySelector('header').getInnerHTML = '<header class="titulo">
+        Ricardo
+    </header>'
+VM1100:1 Uncaught SyntaxError: Invalid or unexpected token
+document.querySelector('header').InnerHTML = '<header class="titulo">
+        Ricardo
+    </header>'
+VM1127:1 Uncaught SyntaxError: Invalid or unexpected token
+document.querySelector('header').InnerHTML = '<b>Hola</b>'
+'<b>Hola</b>'
+document.querySelector('header').innerText = 'Ricardo'
+'Ricardo'
+document.querySelector('.titulo').innerText = 'Ricardo'
+'Ricardo'
+document.querySelector('.titulo').innerText = 'Adios'
+'Adios'
+const titulo = document.querySelector('.titulo');
+undefined
+titulo.innerText = "awevo"
+'awevo'
+
+.nombre hace referencia a la clase
